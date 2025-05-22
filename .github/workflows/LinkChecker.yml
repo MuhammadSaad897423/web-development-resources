@@ -5,7 +5,7 @@ on:
     - cron: "00 18 * * 0"
 name: Check markdown links
 jobs:
-  linkChecker:
+  linkChecker::
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
